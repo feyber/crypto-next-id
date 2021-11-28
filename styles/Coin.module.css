@@ -13,7 +13,7 @@
   border: 1px solid #2fffe5;
   border-radius: 10px;
   padding: 4rem;
-  width: 400px;
+  width: 300px;
 }
 
 .coin__image {
@@ -26,4 +26,9 @@
 
 .coin__ticker {
   margin-bottom: 1rem;
+}
+
+.coin__current {
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }

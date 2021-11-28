@@ -3,7 +3,7 @@ import styles from "../../styles/Coin.module.css";
 const Coin = ({ coin }) => {
   return (
     <div className={styles.coin__page}>
-      <div className={styles.coin__container}>
+      <div className="flex flex-col justify-center items-center">
         <img
           src={coin.image.large}
           alt={coin.name}
