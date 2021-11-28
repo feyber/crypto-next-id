@@ -53,7 +53,7 @@ const Layout = ({ children, title = "Indonesia Crypto Tracker" }) => {
           </Link>
         </Tilt>
       </header>
-      <main className="flex flex-col bg-green-50 w-11/12 p-8 bg-opacity-10 rounded-2xl shadow-2xl m-2 justify-center items-center">
+      <main className="flex flex-col bg-green-50 w-11/12 p-12 bg-opacity-10 rounded-2xl shadow-2xl m-2 justify-center items-center">
         {children}
       </main>
       <footer className="w-full p-16 flex flex-col items-center justify-center">
