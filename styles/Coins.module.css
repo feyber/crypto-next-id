@@ -38,6 +38,8 @@
 
 .coin__symbol {
   text-transform: uppercase;
+  margin-right: 10px;
+  width: 250px;
 }
 
 .coin__data {
